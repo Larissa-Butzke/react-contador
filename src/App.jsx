@@ -1,4 +1,5 @@
 import { useState } from "react"
+import './App.css'
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
     }
     
     function zerar() {
-        setNumero(numero = 0)
+        setNumero(numero - numero)
     }
 
     return <section>
